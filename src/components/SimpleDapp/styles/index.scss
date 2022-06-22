@@ -1,0 +1,27 @@
+.dapp-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    .floating-btn-container {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        z-index: 5; //overlap flow chart
+        .icon-margin {
+            margin-right: 8px;
+        }
+    }
+    .token-limit {
+        background-color: black;
+        z-index: 5;
+        bottom: 16px;
+        right: 16px;
+        position: absolute;
+        border-radius: 4px;
+        padding: 8px;
+    }
+}

@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    .content {
+        display: flex;
+        align-items: center;
+        height: 75%;
+        width: 80%;
+    }
+    .left-content {
+        height: 100%;
+        flex: 1;
+    }
+    .right-content {
+        height: 100%;
+        width: 300px;
+        overflow: auto;
+        box-sizing: border-box;
+        .list-item {
+            display: flex;
+            padding: 16px;
+            transition: all 0.5s;
+            &:hover {
+                cursor: pointer;
+            }
+            img {
+                height: 72px;
+                width: 128px;
+            }
+            .text {
+                margin-left: 8px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .close-button {
+        position: absolute;
+        right: calc(10% - 54px);
+        top: calc(25% / 2 - 32px); // 100%/2 - 75% / 2 - 32px
+    }
+}

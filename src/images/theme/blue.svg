@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97" height="86" viewBox="0 0 97 86">
+  <defs>
+    <filter id="Rectangle_149432" x="0" y="2" width="97" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_149435" x="3" y="0" width="33" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_88693" data-name="Group 88693" transform="translate(8.578 9.061)">
+    <g transform="matrix(1, 0, 0, 1, -8.58, -9.06)" filter="url(#Rectangle_149432)">
+      <rect id="Rectangle_149432-2" data-name="Rectangle 149432" width="79" height="66" rx="4" transform="translate(9 9)" fill="#2f3d4d"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -8.58, -9.06)" filter="url(#Rectangle_149435)">
+      <path id="Rectangle_149435-2" data-name="Rectangle 149435" d="M4,0H15a0,0,0,0,1,0,0V66a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(9 9)" fill="#272c33"/>
+    </g>
+  </g>
+</svg>

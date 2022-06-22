@@ -1,0 +1,23 @@
+.button-dropdown-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg {
+        margin-right: 8px;
+    }
+}
+.menu-item-dropdown {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    span.material-icons {
+        margin-right: 8px;
+    }
+    .input-file {
+        display: none;
+    }
+}
+.paper-dropdown {
+    border: unset !important;
+}

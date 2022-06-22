@@ -1,0 +1,41 @@
+$content-width: 290px;
+
+.search-input {
+    min-height: 45px;
+    margin-top: 16px;
+}
+.container {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    overflow: auto;
+    .register-item {
+        border-radius: 8px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        min-height: 45px;
+        gap: 8px;
+        width: calc(50% - 8px);
+        text-align: left;
+
+        .number-of-tokens {
+            color: white;
+            min-width: 24px;
+            height: 24px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px;
+        }
+        &:hover {
+            .number-of-tokens {
+                background-color: #007fff;
+            }
+        }
+    }
+}

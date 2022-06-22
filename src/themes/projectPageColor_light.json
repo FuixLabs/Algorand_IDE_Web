@@ -1,0 +1,146 @@
+{
+    "id": 2,
+    "type": "light",
+    "background": {
+        "toolbar": "#ffffff",
+        "sidebar": "#ffffff",
+        "form": "#f7f7f7",
+        "transactionItem": "rgba(0, 0, 0, 0.1)"
+    },
+    "dashboard": {
+        "background": "#f5f5f5"
+    },
+    "designPage": {
+        "background": "#e5e5e5",
+        "grid": "rgba(0,0,0,0.5)"
+    },
+    "text": {
+        "primary": "rgba(0,0,0, 0.87)",
+        "secondary": "rgba(0,0,0, 0.54)",
+        "disabled": "rgba(0,0,0, 0.38)",
+        "hint": "rgba(0,0,0, 0.38)"
+    },
+    "divider": "rgba(0,0,0, 0.12)",
+    "primary": {
+        "main": "#049AA0",
+        "light": "#1CC6CC",
+        "dark": "#0F787C",
+        "contrastText": "#ffffff",
+        "opacity": "rgb(4,154,160, 0.1)"
+    },
+    "secondary": {
+        "main": "#393939",
+        "light": "#6F6F6F",
+        "dark": "#4C4C4C",
+        "contrastText": "#ffffff"
+    },
+    "info": {
+        "main": "#4589FF",
+        "light": "#4589FF",
+        "dark": "#0353E9",
+        "contrastText": "#000"
+    },
+    "success": {
+        "light": "#42be65",
+        "main": "#24a148",
+        "dark": "#1A8338",
+        "contrastText": "#ffffff"
+    },
+    "error": {
+        "light": "#ff8389",
+        "main": "#fa4d56",
+        "dark": "#da1e28",
+        "contrastText": "#ffffff"
+    },
+    "warning": {
+        "light": "#ffb74d",
+        "main": "#ff9800",
+        "dark": "#f57c00",
+        "contrastText": "#000000"
+    },
+    "action": {
+        "hoverOpacity": 0.08,
+        "hover": "rgba(0,0,0, 0.08)",
+        "dropContainer": "rgba(0, 0, 0, 0.1)",
+        "selected": "rgba(0,0,0, 0.14)",
+        "disabledBackground": "rgba(0,0,0, 0.12)",
+        "disabled": "rgba(0,0,0, 0.26)",
+        "active": "rgba(0,0,0, 0.54)",
+        "focus": "rgba(0,0,0, 0.12)"
+    },
+    "input": {
+        "backgroundColor": "#f5f5f5",
+        "hashtagColor": "#69797e",
+        "borderColor": "rgba(0, 0, 0, 0.30)"
+    },
+    "dialog": {
+        "backgroundColor": "#ffffff",
+        "iconColorBackground": "#f5f5f5",
+        "boxShadow": "rgba(0, 0, 0, 0.16)",
+        "backgroundActiveColor": "#3d3d3d",
+        "backgroundContent": "rgba(0,0,0,.3)"
+    },
+    "table": {
+        "backgroundHeader": "#f5f5f5",
+        "backgroundBody": "#ffffff",
+        "backgroundActiveColor": "rgba(0,0,0,.15)"
+    },
+    "tooltip": {
+        "backgroundColor": "#393939"
+    },
+    "login": {
+        "primaryTextColor": "#EBECF0",
+        "secondaryTextColor": "#687D83",
+        "inputColor": "#687D83",
+        "buttonColor": "#1060FF",
+        "backgroundColor": "linear-gradient(to top, #13252C 0%, #55616A 100%)",
+        "borderColor": "#4d6369",
+        "inputBackground": "#202629"
+    },
+    "dropdownMenu": {
+        "backgroundColor": "#ffffff"
+    },
+    "iconColor": {
+        "default": "#B8B8B8",
+        "primary": "#4EA797",
+        "secondary": "#ffc107",
+        "primaryColorIcon": "rgba(0,0,0, 0.75)"
+    },
+    "tab": {
+        "backgroundColor": "rgba(0,0,0, 0.1)",
+        "contrastText": "#fff",
+        "active": "rgba(0, 127, 255, 0.15)"
+    },
+    "register": {
+        "iconColor": "#0072EB",
+        "borderColor": "#2568e6",
+        "backgroundColor": "#ffffff",
+        "hoverBackgroundColor": "#BEFDFF"
+    },
+    "operation": {
+        "iconColor": "#F79354",
+        "borderColor": "#e6691b",
+        "backgroundColor": "#ffffff",
+        "hoverBackgroundColor": "#FDF6D6"
+    },
+    "port": {
+        "in": "#43a047",
+        "out": "#f75454",
+        "color": "#fff"
+    },
+    "contrast": "#ffffff",
+    "dapp": {
+        "dark": "#4B2A21",
+        "primary": "#6B3E2D",
+        "light": "#F2E3D2",
+        "border": "#FCF2BA",
+        "lightYellow": "#FFF5D0",
+
+        "text": {
+            "primary": "rgba(255, 255, 255, 0.87)",
+            "secondary": "rgba(255, 255, 255, 0.54)",
+            "disabled": "rgba(255, 255, 255, 0.38)",
+            "hint": "rgba(255, 255, 255, 0.38)"
+        }
+    }
+}

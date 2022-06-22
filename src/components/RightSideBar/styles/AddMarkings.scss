@@ -1,0 +1,32 @@
+.title-form {
+  font-weight: 600;
+}
+.add-markings-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  .switch {
+    display: flex;
+    align-items: center;
+    margin-bottom: 34px;
+    justify-content: flex-end;
+    margin-top: 24px;
+
+    .button-save {
+      margin-left: 60px;
+      min-height: 42px;
+    }
+  }
+  .grid-container {
+    flex: 1;
+    overflow: auto;
+    .MuiFormControl-root {
+      margin-top: 33px;
+    }
+    .list-input {
+      overflow: auto;
+    }
+  }
+}

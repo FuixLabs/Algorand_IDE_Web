@@ -1,0 +1,53 @@
+.fireable-container {
+    min-height: 90vh;
+    max-height: 90vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    justify-content: space-between;
+    gap: 20px;
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .title {
+            font-weight: bold;
+            font-size: 21px;
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+        .button-close {
+            margin-left: 24px;
+            margin-right: -12px;
+        }
+    }
+
+    .list-container {
+        flex: 1;
+        overflow: auto;
+        .fire-section {
+            height: 80px;
+            margin-bottom: 16px;
+            border-radius: 4px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .title {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .status-icon-container {
+                min-width: 24px;
+            }
+        }
+    }
+}

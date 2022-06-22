@@ -1,0 +1,38 @@
+.help-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content {
+        width: 500px;
+        height: 620px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        .header {
+            margin-bottom: 24px;
+            padding: 24px 24px 0;
+            .title {
+                display: flex;
+                align-items: center;
+                font-size: 16px;
+            }
+            button {
+                position: absolute;
+                right: 3px;
+                top: 8px;
+            }
+        }
+        .body {
+            padding: 20px 24px 24px 24px;
+            flex: 1;
+            overflow: auto;
+            .title {
+                font-size: 16px;
+                padding: 8px 0;
+            }
+            p.des {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}

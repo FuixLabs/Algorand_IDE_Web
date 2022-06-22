@@ -1,0 +1,55 @@
+.dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.conflict-dialog {
+        .content {
+            min-height: 250px;
+            max-height: 500px;
+            height: auto;
+        }
+        .body-dialog {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .content {
+        border: unset !important;
+        padding: 33px 36px;
+        position: relative;
+        width: 645px;
+        height: 252px;
+        display: flex;
+        flex-direction: column;
+        outline: none;
+        &:focus {
+            border: unset;
+        }
+        .button-close {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+        .header-dialog {
+            margin-bottom: 20px;
+            .title {
+                font-size: 21px;
+                font-weight: bold;
+            }
+        }
+        .body-dialog {
+            flex: 1;
+            p {
+                font-size: 16px;
+            }
+        }
+        .footer-dialog {
+            display: flex;
+            justify-content: flex-end;
+            button:first-child {
+                margin-right: 28px;
+            }
+        }
+    }
+}

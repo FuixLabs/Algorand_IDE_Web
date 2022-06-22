@@ -1,0 +1,30 @@
+.left-toolbar,
+.right-toolbar {
+    display: flex;
+}
+.left-toolbar {
+    align-items: center;
+    justify-content: center;
+    .output-link {
+        text-decoration: none;
+        .output-model-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+        }
+    }
+
+    .divider {
+        margin-left: 12px;
+        margin-right: 12px;
+        height: 40px;
+    }
+    .button-output-model {
+        display: flex;
+        align-items: center;
+        span {
+            margin-left: 8px;
+        }
+    }
+}

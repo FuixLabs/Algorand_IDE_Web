@@ -1,0 +1,146 @@
+{
+    "id": 1,
+    "type": "dark",
+    "background": {
+        "toolbar": "#171717",
+        "sidebar": "#171717",
+        "form": "#222222",
+        "transactionItem": "rgba(0, 0, 0, 0.1)"
+    },
+    "dashboard": {
+        "background": "#000000"
+    },
+    "designPage": {
+        "background": "#282828",
+        "grid": "#282828"
+    },
+    "text": {
+        "primary": "rgba(255, 255, 255, 0.87)",
+        "secondary": "rgba(255, 255, 255, 0.54)",
+        "disabled": "rgba(255, 255, 255, 0.38)",
+        "hint": "rgba(255, 255, 255, 0.38)"
+    },
+    "divider": "rgba(255, 255, 255, 0.12)",
+    "primary": {
+        "main": "#007FFF",
+        "light": "#4589FF",
+        "dark": "#0353E9",
+        "contrastText": "#fff",
+        "opacity": "#1F2938"
+    },
+    "secondary": {
+        "main": "#393939",
+        "light": "#6F6F6F",
+        "dark": "#4C4C4C",
+        "contrastText": "#fff"
+    },
+    "info": {
+        "main": "#4589FF",
+        "light": "#4589FF",
+        "dark": "#0353E9",
+        "contrastText": "#000"
+    },
+    "success": {
+        "light": "#42be65",
+        "main": "#24a148",
+        "dark": "#1A8338",
+        "contrastText": "#fff"
+    },
+    "error": {
+        "light": "#ff8389",
+        "main": "#fa4d56",
+        "dark": "#da1e28",
+        "contrastText": "#fff"
+    },
+    "warning": {
+        "light": "#ffb74d",
+        "main": "#ff9800",
+        "dark": "#f57c00",
+        "contrastText": "#fff"
+    },
+    "action": {
+        "hoverOpacity": 0.08,
+        "hover": "rgba(255, 255, 255, 0.08)",
+        "dropContainer": "rgba(0, 0, 0, 0.3)",
+        "selected": "rgba(255, 255, 255, 0.14)",
+        "disabledBackground": "rgba(255, 255, 255, 0.12)",
+        "disabled": "rgba(255, 255, 255, 0.26)",
+        "active": "rgba(255, 255, 255, 0.54)",
+        "focus": "rgba(255, 255, 255, 0.12)"
+    },
+    "input": {
+        "backgroundColor": "#222222",
+        "hashtagColor": "#69797e",
+        "borderColor": "rgba(255, 255, 255, 0.30)"
+    },
+    "dialog": {
+        "backgroundColor": "#282828",
+        "iconColorBackground": "#f5f5f5",
+        "boxShadow": "rgba(0, 0, 0, 0.16)",
+        "backgroundActiveColor": "#3d3d3d",
+        "backgroundContent": "rgba(0,0,0,.3)"
+    },
+    "table": {
+        "backgroundHeader": "#393939",
+        "backgroundBody": "#222222",
+        "backgroundActiveColor": "#3d3d3d"
+    },
+    "tooltip": {
+        "backgroundColor": "#393939"
+    },
+    "login": {
+        "primaryTextColor": "#EBECF0",
+        "secondaryTextColor": "#687D83",
+        "inputColor": "#687D83",
+        "buttonColor": "#1060FF",
+        "backgroundColor": "linear-gradient(to top, #13252C 0%, #55616A 100%)",
+        "borderColor": "#4d6369",
+        "inputBackground": "#202629"
+    },
+    "dropdownMenu": {
+        "backgroundColor": "#262626"
+    },
+    "iconColor": {
+        "default": "#B8B8B8",
+        "primary": "#4EA797",
+        "secondary": "#ffc107",
+        "primaryColorIcon": "#ffffff"
+    },
+    "tab": {
+        "backgroundColor": "rgba(255, 255, 255, 0.1)",
+        "contrastText": "#fff",
+        "active": "rgba(0, 127, 255, 0.15)"
+    },
+    "register": {
+        "iconColor": "#ffffff",
+        "borderColor": "#2568e6",
+        "backgroundColor": "#2568e64d",
+        "hoverBackgroundColor": "#2568e6a6"
+    },
+    "operation": {
+        "iconColor": "#ffffff",
+        "borderColor": "#e6691b",
+        "backgroundColor": "#e6691b4f",
+        "hoverBackgroundColor": "#e6691ba7"
+    },
+    "port": {
+        "in": "#43a047",
+        "out": "#f75454",
+        "color": "#fff"
+    },
+    "contrast": "#ffffff",
+    "dapp": {
+        "dark": "#4B2A21",
+        "primary": "#6B3E2D",
+        "light": "#F2E3D2",
+        "border": "#FCF2BA",
+        "lightYellow": "#FFF5D0",
+
+        "text": {
+            "primary": "rgba(255, 255, 255, 0.87)",
+            "secondary": "rgba(255, 255, 255, 0.54)",
+            "disabled": "rgba(255, 255, 255, 0.38)",
+            "hint": "rgba(255, 255, 255, 0.38)"
+        }
+    }
+}

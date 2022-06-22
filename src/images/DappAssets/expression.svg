@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_88659" data-name="Group 88659" transform="translate(-3335 -5377)">
+    <rect id="Rectangle_146768" data-name="Rectangle 146768" width="32" height="32" rx="16" transform="translate(3335 5377)" fill="#fff" opacity="0"/>
+    <g id="Group_69277" data-name="Group 69277" transform="translate(-9157 1350)">
+      <rect id="Rectangle_145642" data-name="Rectangle 145642" width="24" height="24" transform="translate(12496 4031)" fill="rgba(0,0,0,0)"/>
+      <g id="Group_69275" data-name="Group 69275" transform="translate(12497.763 4033.042)">
+        <path id="Path_48911" data-name="Path 48911" d="M17.92,9.84a1.28,1.28,0,1,0-1.28-1.28A1.28,1.28,0,0,0,17.92,9.84Zm0,1.28a2.56,2.56,0,1,0-2.56-2.56A2.56,2.56,0,0,0,17.92,11.12ZM2.56,9.84A1.28,1.28,0,1,0,1.28,8.56,1.28,1.28,0,0,0,2.56,9.84Zm0,1.28A2.56,2.56,0,1,0,0,8.56,2.56,2.56,0,0,0,2.56,11.12Z" transform="translate(0 1.4)" fill="#3f5c16" fill-rule="evenodd"/>
+        <path id="Path_48912" data-name="Path 48912" d="M1.5,2.92A1.92,1.92,0,0,1,3.42,1h12.8a1.92,1.92,0,0,1,1.92,1.92V8.04H16.86V2.92a.64.64,0,0,0-.64-.64H3.42a.64.64,0,0,0-.64.64V8.04H1.5Zm1.28,8.96V17a.64.64,0,0,0,.64.64h12.8a.64.64,0,0,0,.64-.64V11.88h1.28V17a1.92,1.92,0,0,1-1.92,1.92H3.42A1.92,1.92,0,0,1,1.5,17V11.88Z" transform="translate(0.42 0)" fill="#3f5c16" fill-rule="evenodd"/>
+      </g>
+      <path id="lightning" d="M42.332,4.217a.2.2,0,0,0-.176-.1h-2.65L39.95.662a.207.207,0,0,0-.134-.216.2.2,0,0,0-.239.082L36.354,6.267a.209.209,0,0,0,0,.208.2.2,0,0,0,.177.105h2.61l-.352,3.456a.207.207,0,0,0,.139.212.2.2,0,0,0,.236-.086l3.169-5.738A.209.209,0,0,0,42.332,4.217Z" transform="translate(12468.616 4037.617)" fill="#3f5c16"/>
+    </g>
+  </g>
+</svg>

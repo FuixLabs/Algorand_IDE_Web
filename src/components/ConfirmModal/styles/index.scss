@@ -1,0 +1,52 @@
+.confirm-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content {
+        border: unset !important;
+        padding: 33px 36px;
+        position: relative;
+        width: 645px;
+        display: flex;
+        flex-direction: column;
+        outline: none;
+        min-height: 250px;
+        max-height: 500px;
+        &:focus {
+            border: unset;
+        }
+        .button-close {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+        .header-modal {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            .title {
+                font-size: 21px;
+                font-weight: bold;
+            }
+            .header-icon {
+                margin-right: 8px;
+            }
+        }
+        .body-modal {
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            p {
+                font-size: 16px;
+            }
+        }
+        .footer-modal {
+            display: flex;
+            justify-content: flex-end;
+            button:first-child {
+                margin-right: 28px;
+            }
+        }
+    }
+}

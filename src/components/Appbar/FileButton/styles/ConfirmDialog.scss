@@ -1,0 +1,30 @@
+.confirm-modal-create {
+    margin: auto;
+    width: 597px;
+    min-height: 232px;
+    border-radius: 4px;
+    position: relative;
+    padding: 40px 31px 31px 31px;
+    .header {
+        .button-close {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+        }
+    }
+    .body {
+        .title {
+            font-size: 21px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+    }
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 40px;
+        :first-child {
+            margin-right: 20px;
+        }
+    }
+}

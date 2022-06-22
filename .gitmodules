@@ -1,0 +1,4 @@
+[submodule "src/contract"]
+	path = src/contract
+	url = https://github.com/tuvalusoftware/TEAL-Project.git
+	branch = main

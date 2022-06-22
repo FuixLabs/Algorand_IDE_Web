@@ -1,0 +1,17 @@
+.popover-container {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1;
+        position: relative;
+        .button-close {
+            margin-left: 24px;
+            margin-right: -12px;
+        }
+    }
+    .title {
+        font-weight: bold;
+        font-size: 21px;
+    }
+}

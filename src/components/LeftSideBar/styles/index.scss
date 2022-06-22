@@ -1,0 +1,103 @@
+.fab-sidebar {
+    display: block;
+    position: absolute !important;
+    z-index: 10;
+    top: 16px;
+    left: 16px;
+    &.hidden {
+        display: none;
+    }
+}
+.left-side-bar {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.3s;
+    &.closed {
+        width: 0 !important;
+        transition: width 0.3s;
+        overflow: hidden;
+    }
+    .header {
+        height: 60px;
+        padding: 4px 12px;
+        border-bottom: 1px solid;
+        display: flex;
+        align-items: center;
+        .container-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex: 1;
+        }
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .sub-title {
+            font-size: 12px;
+            margin-top: 8px;
+        }
+    }
+    .body {
+        padding: 12px 25px;
+        flex: 1;
+        .link {
+            text-decoration: unset;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            margin-top: 6px;
+            margin-bottom: 19px;
+            span {
+                font-size: 16px;
+                margin-left: 8px;
+            }
+        }
+    }
+    .footer {
+        .copy-right {
+            font-size: 12px;
+            text-align: center;
+            height: 60px;
+            padding: 20px;
+        }
+    }
+    .list-item {
+        display: flex;
+        justify-content: space-around;
+    }
+    .register {
+        margin-bottom: 34px;
+    }
+
+    .register,
+    .operation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 4px;
+        margin-top: 5px;
+        height: 84px;
+        width: 84px;
+        padding: 12px 12px;
+        .name {
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+    .svg-content {
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            pointer-events: none;
+            height: 40px;
+        }
+    }
+}
+.tooltip {
+    line-height: 17px;
+}

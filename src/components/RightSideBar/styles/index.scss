@@ -1,0 +1,303 @@
+.right-side-bar {
+    width: 380px;
+    .header {
+        height: 60px;
+        min-height: 60px;
+        font-size: 14px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        padding: 4px 12px;
+        border-bottom: 1px solid;
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+    .body {
+        display: flex;
+        height: 100%;
+        overflow: hidden;
+        .no-selected {
+            margin: auto;
+            padding: 12px 28px;
+            .title {
+                font-size: 16px;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 13px;
+            }
+            .description {
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+        .register-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 20px;
+            .title-form {
+                margin-bottom: 18px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            .button-add-markings {
+                border-radius: 30px;
+                margin-left: 20px;
+                .text {
+                    display: flex;
+                    align-items: center;
+                    svg {
+                        margin-right: 4px;
+                    }
+                }
+            }
+            .register-body {
+                margin-bottom: 12px;
+                padding: 18px 28px;
+                max-height: 100%;
+                overflow: auto;
+
+                .switch {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 34px;
+                }
+                .input-name {
+                    margin-bottom: 18px;
+                }
+                .title {
+                    margin-right: 4px;
+                }
+                .type-container {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 33px;
+                    .form-control {
+                        width: 115px;
+                        min-width: 115px;
+                    }
+                    button {
+                        width: 40px;
+                        height: 40px;
+                        margin-left: 12px;
+                    }
+                }
+                .input-description {
+                    margin-left: 12px;
+                    .MuiOutlinedInput-root {
+                        height: 56px;
+                    }
+                }
+            }
+            .register-footer {
+                padding: 0px 28px;
+                button {
+                    height: 42px;
+                    text-transform: capitalize;
+                }
+                button:first-child {
+                    margin-bottom: 27px;
+                }
+            }
+        }
+
+        .add-guard {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 20px;
+            .title-form {
+                margin-bottom: 18px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            .add-guard-body {
+                margin-bottom: 12px;
+                padding: 18px 28px;
+                flex: 1;
+                overflow: auto;
+                .title {
+                    margin-right: 4px;
+                }
+                .input-name {
+                    margin-bottom: 33px;
+                }
+                .condition {
+                    margin-bottom: 60px;
+                }
+            }
+            .add-guard-footer {
+                padding: 0px 28px;
+                button {
+                    height: 42px;
+                    text-transform: capitalize;
+                }
+                button:first-child {
+                    margin-bottom: 27px;
+                }
+            }
+        }
+        .add-variable-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 20px;
+            .title-form {
+                margin-bottom: 18px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            .add-variable-body {
+                margin-bottom: 12px;
+                padding: 18px 28px;
+                flex: 1;
+                overflow: auto;
+                .title {
+                    margin-right: 4px;
+                }
+                .input {
+                    margin-bottom: 26px;
+                }
+                .type {
+                    margin-bottom: 21px;
+                    font-size: 14px;
+                }
+                .info {
+                    display: flex;
+                    margin-bottom: 20px;
+                    svg {
+                        margin-right: 4px;
+                        width: 20px;
+                        height: 20px;
+                    }
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .add-variable-footer {
+                padding: 0px 28px;
+                button {
+                    height: 42px;
+                    text-transform: capitalize;
+                }
+                button:first-child {
+                    margin-bottom: 27px;
+                }
+            }
+        }
+    }
+}
+.MuiModal-root {
+    display: flex;
+    .register-dialog {
+        position: relative;
+        padding: 25px 48px;
+        border-radius: 4px;
+        margin: auto;
+        max-width: 1050px;
+        width: 100%;
+        min-height: 550px;
+        max-height: 800px;
+        display: flex;
+        flex-direction: column;
+        outline: unset;
+        .title-form {
+            font-weight: 600;
+        }
+        .warning-define-type {
+            display: flex;
+            height: 400px;
+            align-items: center;
+            justify-content: center;
+            p {
+                font-size: 16px;
+            }
+        }
+        .add-markings-form {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            flex: 1;
+            overflow: hidden;
+            .total {
+                margin-bottom: 30px;
+            }
+            .switch {
+                display: flex;
+                align-items: center;
+                margin-bottom: 34px;
+                justify-content: flex-end;
+                margin-top: 24px;
+
+                .button-save {
+                    margin-left: 60px;
+                }
+            }
+            .grid-container {
+                flex: 1;
+                overflow: auto;
+                .MuiFormControl-root {
+                    margin-top: 33px;
+                }
+                .list-input {
+                    overflow: auto;
+                }
+            }
+        }
+
+        .header-form {
+            justify-content: space-between;
+            display: flex;
+            margin-bottom: 45px;
+            align-items: center;
+            .button-add {
+                padding-left: 10px;
+                padding-right: 10px;
+                text-transform: capitalize;
+                display: flex;
+                align-items: center;
+                height: 42px;
+                svg {
+                    margin-right: 4px;
+                }
+            }
+        }
+        .not-found {
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .input-search {
+            height: 40px;
+            font-size: 14px;
+        }
+        .button-delete {
+            margin-right: auto;
+        }
+        .footer-table {
+            margin-top: 20px;
+        }
+        .header-dialog {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .button-back {
+                margin-right: 12px;
+            }
+            .title {
+                font-size: 21px;
+                font-weight: bold;
+            }
+            .button-close {
+                right: 5px;
+                top: 5px;
+                position: absolute;
+            }
+        }
+    }
+}

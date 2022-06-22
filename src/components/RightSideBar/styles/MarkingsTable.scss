@@ -1,0 +1,75 @@
+.table-marking {
+    .header-form {
+        justify-content: space-between;
+        display: flex;
+        margin-bottom: 40px;
+        align-items: center;
+        .add-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .button-add {
+            padding-left: 10px;
+            padding-right: 10px;
+            text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            height: 42px;
+            svg {
+                margin-right: 4px;
+            }
+        }
+        .help-icon {
+            font-size: 32px;
+            padding: 4px;
+            box-sizing: content-box;
+        }
+    }
+    .left-gird {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title-form {
+            margin-bottom: 30px;
+        }
+    }
+
+    .not-found {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-search {
+        height: 40px;
+        font-size: 14px;
+        margin-left: -8px;
+    }
+
+    .container-table {
+        border: 1px solid;
+        border-radius: 4px;
+        .action-cell {
+            min-width: 120px;
+            width: 120px;
+            button:first-child {
+                margin-right: 12px;
+            }
+            span {
+                font-size: 20px;
+            }
+        }
+        .MuiTableRow-root {
+            height: 44px;
+            td,
+            th {
+                height: 44px;
+            }
+        }
+    }
+    .footer-table {
+        margin-top: 20px;
+    }
+}

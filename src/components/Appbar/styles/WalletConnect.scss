@@ -1,0 +1,40 @@
+.wallet-connect-container {
+  margin-top: 23px;
+  width: 100%;
+  .button-connect {
+    height: 55px;
+    border: 1px solid;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  .account-info {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    height: 55px;
+    padding: 0px 18px;
+    border-radius: 4px;
+    .info {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      .account {
+        margin-left: 12px;
+        flex: 1;
+        overflow: hidden;
+        .address {
+          font-weight: bold;
+        }
+        p {
+          width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          &:not(.address) {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
