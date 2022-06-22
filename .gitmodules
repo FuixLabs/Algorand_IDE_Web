@@ -1,4 +1,4 @@
 [submodule "src/contract"]
 	path = src/contract
-	url = https://github.com/tuvalusoftware/TEAL-Project.git
+	url = https://github.com/FuixLabs/Algorand_IDE_BACKEND.git
 	branch = main
